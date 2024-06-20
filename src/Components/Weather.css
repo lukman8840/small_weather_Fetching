@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .weather {
+    padding: 10px;
+    place-self: center;
+    border-radius: 12px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    width: 340px;
+  }
+  
+  .search-bar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 300px;
+  }
+  
+  .search-bar input {
+    margin-top: 10px;
+    padding: 10px 20px 10px 40px;
+    width: 100%;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+  .search-bar svg {
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #888;
+    cursor: pointer;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+  
+  h2 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .sunny { 
+    color: yellow;
+    font-size: 100px;
+    margin-top: 40px;
+  }
+  
+  .temperature {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 1;
+  }
+  
+  .location {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 40px;
+  }
+  
+  .weather-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: #fff;
+    width: 80%;
+  }
+  
+  .weather-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+    font-size: 20px;
+  }
+  .weather-data .col span{
+    display: block;
+    font-size: 16px;
+  }
+  .weather-data .col svg{
+    width: 26px;
+    font-size: 20px;
+    margin: 10px;
+  }
